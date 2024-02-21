@@ -1,0 +1,399 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+@font-face {
+    font-family: fuente-space;
+    src: url(../fonts/Horyzen\ Headline.ttf);
+}
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgba(111, 0, 255, 0.70);
+}
+body::-webkit-scrollbar-track{
+    background-color: black;
+}
+body::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(111, 0, 255, 1);
+}
+
+a{
+    text-decoration: none;
+}
+section{
+    padding: 45px 0px 45px 0px;
+}
+
+/* cabecera */
+.header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+/* menu principal */
+.container-nav{
+    display: flex;
+    width: 100%;
+}
+/* logo */
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+}
+.logo img{
+    height: 40px;
+}
+.menu-nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;  
+}
+.menu{
+    list-style: none;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.menu a {
+    padding: 0px 25px 0px 25px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: fuente-space;
+    color: white;
+}
+.menu a:hover {
+    /* color: rgba(0, 245, 200); */
+    border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+
+/* menu redes sociales */
+.social-media{
+    display: flex;
+    width: 20%;
+    justify-content: end;
+    align-items: end;
+}
+
+.menu-social ul{
+    display: flex;
+    list-style: none;
+}
+
+/* estilizar las etiquetas i */
+.social-media i{
+    padding: 25px ;
+    font-size: 25px;
+    color: white;
+}
+.social-media i:hover{
+    color: rgba(0, 245, 200);
+}
+
+/* hero */
+.hero{
+    background-image: url(../img/space3.jpg);
+    width: 100%;
+    height: 490px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.hero h1{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+}
+
+.space{
+    padding: 0px 10px 0px 10px;
+    font-family: fuente-space;
+    font-size: 20px;
+
+}
+.title-secondary{
+    text-align: center;
+    font-size: 20px;
+}
+.background-section-1{
+    /* agregando color degradado */
+    width: 100%;
+    background-color: #1b1d1e;
+    color: white;
+    background-position: 20;
+}
+.first-box{
+    display: flex;
+    padding: 2%;
+}
+.first-box img{
+    width: 50%;
+    padding: 2%;
+}
+.first-box p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: justify;
+    padding: 2%;
+}
+.first-box h4{
+    padding: 2%;
+    font-weight: 900;
+    font-size: 20px;
+}
+.second-box{
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+}
+.second-box img{
+    width: 50%;
+    padding: 2%;
+}
+
+.background-section-2{
+    width: 100%;
+    background-color: #1B2631;
+    color: white;
+    background-position: 20;
+}
+
+/* Agregando los estilos de la pagina de servicios */
+.background-section-3{
+    background-color: black;
+    color: white;
+    background-position: 20;
+    display: block;
+    flex-wrap: wrap;
+}
+.titulo-logo{
+    display: flex;
+}
+.titulo-logo img{
+    margin: 30px;
+}
+.titulo-logo h2{
+    margin-left: 10px;
+}
+.title-third-servicios{
+    font-family: fuente-space;
+    margin: 5px;
+    padding: 2%;
+    font-weight: 900;
+    font-size: 20px;
+
+    margin-left: 40px;
+}
+.title-secondary-servicios{
+    text-align: start;
+    font-family: fuente-space;
+    padding-left: 20px;
+}
+.area-contenido-nosotros{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.title-secondary-nosotros{
+    text-align: center;
+    font-family: fuente-space;
+    padding-left: 20px;
+    color: #bb00fa;
+}
+.first-box-nosotros{
+    text-align: center;
+}
+.first-box-nosotros p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.area-contenido{
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-flow: row wrap;
+}
+.first-box-servicios{
+    display: block;
+    flex-direction: row;
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    letter-spacing: 2px;
+}
+.first-box-servicios p{
+    font-size: 16px;
+}
+.first-box-servicios button{
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+.first-box-servicios button:hover{
+    background-color: grey;
+    margin-top: 10px;
+}
+.third-box-servicios h4{
+    padding: 2%;
+    font-weight: 900;
+    font-size: 20px;
+}
+.background-section-4{
+    background-color: #1b1d1e;
+    color: white;
+    background-position: 20;
+}
+.background-section-5{
+    background-color: black;
+    color: white;
+    background-position: 20;
+}
+.background-section-6{
+    background-color: #1b1d1e;
+    color: white;
+    background-position: 20;
+}
+.background-section-7{
+    background-color: black;
+    color: white;
+    background-position: 20;
+}
+.background-section-7 span{
+    font-size: 40px;
+}
+.background-section-8{
+    background-color: black;
+    color: white;
+    background-position: 20;
+}
+.background-section-9{
+    background-color: black;
+    color: white;
+    background-position: 20;
+}
+/* Agregando los estilos de la pagina de servicios */
+
+.footer{
+    display: flex;
+    align-items: center;
+    /* height: 80px; */
+    background-color: black;
+    padding: 0px 25px 0px 25px;
+}
+.logo2{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+}
+.logo2 img{
+    height: 40px;
+}
+.info{
+    text-align: center;
+    flex-wrap: wrap;
+    width: 80%;
+    font-size: 18px;
+    font-family: fuente-space;
+    color: white;
+}
+
+/* menu oculto */
+.icono-menu{
+    display: none;
+}
+.img-mobile{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    body{
+        width: auto;
+    }
+    .logo{
+        width: 100%;
+        position: relative;
+        z-index: 999;
+    }
+    .menu-nav{
+        width: 100%;
+    }
+    .social-media{
+        width: 100%;
+    }
+    .menu{
+        display: block;
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .hero{
+        height: 250px;
+        background-position: left center;
+    }
+    .menu li{
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .icono-menu{
+        display: block;
+        color: white;
+        font-size: 20px;
+        padding: 8px 10px 8px 10px;
+    }
+    .container-nav{
+        width: 100%;
+        height: 260px;
+        display: block;
+        position: absolute;
+        top: -400px;
+        background-color: black;
+        transition: 1s ease top;
+    }
+    .container-nav-2{
+        top: 38px
+    }
+    footer{
+        flex-wrap: wrap;
+    }
+    .first-box{
+        display: block;
+    }
+    .first-box img{
+        width: 100%;
+        padding: 0px;
+    }
+    .img-mobile{
+        display: block;
+    }
+    .img-desktop{
+        display: none;
+    }
+    .logo2{
+        width: 100%;
+    }
+    .info{
+        width: 100%;
+    }
+    .social-media{
+        width: 100%;
+        justify-content: center;
+    }
+}
