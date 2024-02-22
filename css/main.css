@@ -396,4 +396,10 @@ section{
         width: 100%;
         justify-content: center;
     }
+	.background-section-7 title-secondary{
+        font-size: 18px;
+    }
+    .background-section-7 title-secondary-nosotros{
+        font-size: 18px;
+    }
 }
