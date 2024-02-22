@@ -199,7 +199,7 @@ section{
     margin-left: 40px;
 }
 .title-secondary-servicios{
-    text-align: start;
+    text-align: center;
     font-family: fuente-space;
     padding-left: 20px;
 }
@@ -278,6 +278,20 @@ section{
 .background-section-7 span{
     font-size: 40px;
 }
+.title-first-nosotros{
+    text-align: center;
+    font-size: 20px;
+    font-family: fuente-space;
+    color: white;
+}
+.title-second-nosotros{
+    text-align: center;
+    font-size: 20px;
+    font-family: fuente-space;
+    color: #bb00fa;
+}
+
+
 .background-section-8{
     background-color: black;
     color: white;
@@ -287,6 +301,102 @@ section{
     background-color: black;
     color: white;
     background-position: 20;
+}
+.background-section-10{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1b1d1e;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-position: 20;
+}
+.background-section-10 .first-box-contacto{
+    width: 70%;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.background-section-11{
+    width: 100%;
+    display: flex;
+    background-color: #1B2631;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    background-position: 20;
+}
+.contenido-contacto{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-box-formulario{
+    width: 45%;
+    padding-top: 50px;
+    float: left;
+    justify-content: center;
+    text-align: center;
+    /* border: 1px solid #bb00fa; */
+}
+.second-box-formulario label{
+    font-size: 25px;
+    font-family: fuente-space;
+}
+.second-box-formulario input, textarea{
+    border-radius: 25px;
+    padding-left: 5px;
+}
+.second-box-formulario button{
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #1B2631;
+    color: white;
+    border: 2px solid white;
+}
+.second-box-formulario button:hover{
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: white;
+    color: #1B2631;
+}
+
+
+.second-box-info{
+    float: right;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    /* border: 1px solid #bb00fa; */
+}
+.contacto-email{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.primera{
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+.segunda{
+    width: 50%;
+    justify-content: center;
+}
+.contacto-mapa{
+    width: 100%;
+    padding-top: 30px;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 /* Agregando los estilos de la pagina de servicios */
 
@@ -396,10 +506,39 @@ section{
         width: 100%;
         justify-content: center;
     }
-	.background-section-7 title-secondary{
-        font-size: 18px;
+	.background-section-7 .title-first-nosotros{
+        text-align: center;
+        font-size: 10px;
+        font-family: fuente-space;
+        color: white;
     }
-    .background-section-7 title-secondary-nosotros{
-        font-size: 18px;
+    .background-section-7 .title-second-nosotros{
+        text-align: center;
+        font-size: 10px;
+        font-family: fuente-space;
+        color: #bb00fa;
+    }
+
+
+    .contenido-contacto{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .second-box-formulario{
+        width: 90%;
+        display: block;
+        flex-wrap: wrap;
+    }
+    .second-box-info{
+        width: 90%;
+        padding-top: 50px;
+        display: block;
+        flex-wrap: wrap;
+    }
+    .contacto-mapa{
+        width: 100%;
+        padding-top: 50px;
+        display: block;
+        flex-wrap: wrap;
     }
 }
